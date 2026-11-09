@@ -1,75 +1,30 @@
-# GamesArchive
+# 🖥️ AT 4 Site Multi Páginas Bootstrap
 
+## 📝 Descrição do Projeto
+Este projeto consiste em um site responsivo sobre a História dos Videogames, desenvolvido com o propósito de criar um arquivo online sobre consolas, jogos e demais conteúdos sobre a indústria dos jogos, aprofundando o entendimento da estrutura web e a aplicação de frameworks visuais.
+Desenvolvido como parte das disciplinas de **Desenvolvimento Front-End Para Web (2026.2)**, o sistema contempla múltiplos ficheiros estruturados:
+- **Início (`index.html`):** Apresentação do tema com carrossel de destaques.
+- **Sobre (`sobre.html`):** Contexto histórico utilizando a grelha (grid) do Bootstrap.
+- **Galeria (`galeria.html`):** 18 consolas e jogos apresentados em cards com modais de detalhes.
+- **Dados (`dados.html`):** Tabela comparativa de consolas e acordeão de curiosidades.
+- **Contato (`contato.html`):** Formulário completo com componentes do Bootstrap.
 
+## 🚀 Tecnologias Utilizadas
+- **Linguagem:** HTML5 e CSS3
+- **Bibliotecas:** Bootstrap 5.3 (via CDN)
+- **Ferramentas:** VSCode, Git e GitHub Pages
+- **Modelo de IA:** Claude, Gemini
 
-Site responsivo sobre a **História dos Videogames**, desenvolvido como atividade do curso de Análise e Desenvolvimento de Sistemas.
+## 📊 Resultados e Aprendizados
+O projeto alcançou uma estrutura completa e responsiva, integrando conteúdos históricos e componentes avançados de interface.
+- **Layout Responsivo com Bootstrap:** Utilização prática de grid, carrossel, cards, modais, acordeões e formulários da biblioteca.
+- **Organização de Projeto Multi-páginas:** Estruturação limpa de pastas (`css/`, `imgs/`) e navegação coerente entre 5 páginas HTML.
+- **Depuração de Código:** Identificação e correção de erros de fecho de tags, IDs duplicados e atributos incorretos.
 
+## 🧠 Declaração de Uso Ético da IA
+Este projeto utilizou inteligência artificial (Claude, Gemini) estritamente como ferramenta de suporte tecnológico para geração de conteúdo (textos de curiosidades, dados das consolas e legendas), depuração de erros estruturais e explicações de conceitos do Bootstrap (grid, componentes e formulários). Todo o código HTML e CSS foi escrito, revisado, testado e compreendido por mim, garantindo a minha responsabilidade integral sobre a autoria final, integridade e funcionamento da aplicação.
 
-
-🔗 **Site publicado:** https://carlosgabriel91.github.io/GamesArchive/
-
-
-
-## Sobre o projeto
-
-O site GamesArchive tem o propósito de ser um arquivo online sobre consoles, jogos e demais conteúdo sobre a indústria dos games. 
-
-
-
-## Páginas
-
-- **Início (`index.html`):** apresentação do tema com carrossel de destaques.
-
-- **Sobre (`sobre.html`):** contexto histórico usando o grid do Bootstrap.
-
-- **Galeria (`galeria.html`):** 18 consoles e jogos em cards, com modais de detalhes.
-
-- **Dados (`dados.html`):** tabela comparativa de consoles e acordeão de curiosidades.
-
-- **Contato (`contato.html`):** formulário com campos do Bootstrap.
-
-
-
-## Tecnologias
-
-- HTML5
-
-- CSS3
-
-- Bootstrap 5.3 (via CDN)
-
-- Git e GitHub Pages
-
-
-
-## Estrutura de pastas
-
-```text
-📦 História dos Videogames AT4
- ┣ 📂 css/
- ┣ 📂 image/
- ┣ 📄 contato.html
- ┣ 📄 dados.html
- ┣ 📄 galeria.html
- ┣ 📄 index.html
- ┣ 📄 README.md
- ┗ 📄 sobre.html
-```
-
-
-## Uso de Inteligência Artificial
-
-- Geração de conteúdo: textos de curiosidades, dados dos consoles e legendas.
-
-- Depuração: identificação de erros de fechamento de tags, `id`s duplicados e atributos incorretos.
-
-- Explicações de conceitos do Bootstrap (grid, componentes, formulários).
-
-- O código HTML e CSS foi escrito por mim.
-
-
-
-## Autor
-
-Carlos Gabriel — Curso de ADS, 2º semestre.
-
+## 💻 Deploy do projeto
+[Clique para acessar](https://carlosgabriel91.github.io/GamesArchive/)
+---
+[Voltar ao início](https://github.com/CarlosGabriel91/portfolio-carlos-gabriel-de-sousa-ribeiro)
