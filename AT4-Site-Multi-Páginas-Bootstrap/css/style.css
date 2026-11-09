@@ -1,0 +1,140 @@
+/* Cards da Galeria */
+.card-img-top {
+    height: 300px;
+    object-fit: contain;
+}
+
+.card {
+    border-color: #d9cfbd;
+
+}
+
+.btn-primary {
+    --bs-btn-bg: #a0732b;
+    --bs-btn-border-color: #795720;
+    --bs-btn-hover-bg: #85601f;
+    --bs-btn-hover-border-color: #85601f; 
+    --bs-btn-active-bg: #6d4f1a;
+    --bs-btn-active-border-color: #6d4f1a;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: #f4efe6;
+}
+
+h5 {
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #444444;
+}
+
+/* Carrossel Página Inicial */
+.carousel-item img {
+    height: 600px;
+    object-fit: contain;
+}
+
+/* Esqueleto da página */
+body {
+    background-color: #f4efe6;
+    color: #464646;
+}
+
+/* Fonte P Geral */
+p {
+    font-family: "Lora", serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #444444;
+}
+
+/* Subtítulo da site */
+h3 {
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+h1 { /* Fonte logo */
+    font-family: "Press Start 2P", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #333333;
+}
+
+h1 .img-fluid {
+    max-width: 150px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 1rem;
+    }
+    .carousel-item img {
+        height: 340px;
+    }
+    header h3 {
+        font-size: 1.2rem;
+    }
+    h1 .img-fluid {
+        max-width: 100px;
+    }
+}
+
+/* Curiosidades */
+h2 { 
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #444444;
+}
+
+/* Configurações do accordion */
+h4 { 
+    font-family: "Lora", serif;
+    font-style: normal;
+    color: #444444;
+    font-size: 1.2rem;
+}
+
+.accordion-button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444444;
+    background-color: #f0e6d5;
+}
+
+.accordion-body {
+    font-family: "Lora", serif;
+    color: #444444;
+    background-color: #f1e2c7;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f1e2c7 !important;
+    color: #835b18 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem #d6af6f !important; 
+}
+
+/* Fonte footer */
+h6 {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #f4efe6;
+}
+
+/* Fonte tabela */
+.table {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+

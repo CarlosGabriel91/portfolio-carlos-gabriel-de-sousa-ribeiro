@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GamesArchive - Galeria</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <header class="container text-center my-4"> 
+            <h1><img src="image/logogames.png" alt="Logo do GamesArchive" class="img-fluid mb-3">GamesArchive</h1>
+            <h3>Explore a história dos videogames e descubra como eles evoluíram ao longo dos anos.</h3>
+        </header>
+        
+        <main class="flex-grow-1">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="galeria.html">Galeria</a></li>
+                            <li class="nav-item"><a class="nav-link" href="dados.html">Dados</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container my-5">
+
+                <!-- PRIMEIRA FILEIRA -->
+                <div class="row">
+                    <!-- CARD 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Odyssey.jpg" class="card-img-top" alt="Magnavox Odyssey">
+                            <div class="card-body">
+                                <h5 class="card-title">Magnavox Odyssey</h5>
+                                <p class="card-text">Lançado em 1972, é reconhecido como o primeiro console de videogame doméstico comercial da história</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMagnavox">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Telstar.jpg" class="card-img-top" alt="Telstar">
+                            <div class="card-body">
+                                <h5 class="card-title">Coleco Telstar</h5>
+                                <p class="card-text">Lançado em 1976, seu baixo custo de venda o tornou acessível a muitos consumidores e fez com que se tornasse um dos consoles mais populares da época.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalColeco">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/atari-branco.png" class="card-img-top" alt="Atari 2600">
+                            <div class="card-body">
+                                <h5 class="card-title">Atari 2600</h5>
+                                <p class="card-text">Lançado em 1977, popularizou o conceito de videogame em casa e o uso de cartuchos que facilitavam a troca de jogos.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAtari">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                     <!-- SEGUNDA FILEIRA -->
+                <div class="row">
+                    <!-- CARD 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Intellivision.jpg" class="card-img-top" alt="Intellivision">
+                            <div class="card-body">
+                                <h5 class="card-title">Intellivision</h5>
+                                <p class="card-text">Lançado em 1979, o Intellivision ficou conhecido pelos gráficos avançados para a época e pelo controle com disco.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIntellivision">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/NES.jpg" class="card-img-top" alt="NES">
+                            <div class="card-body">
+                                <h5 class="card-title">NES (Nintendo Entertainment System)</h5>
+                                <p class="card-text">Lançado no Japão em 1983 como Famicom e nos EUA em 1985 como NES, o console foi um dos mais vendidos da história e ajudou a revitalizar o mercado de videogames após a crise de 1983.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNES">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- CARD 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Master-System.png" class="card-img-top" alt="Master System">
+                            <div class="card-body">
+                                <h5 class="card-title">Master System</h5>
+                                <p class="card-text">Lançado pela Sega em 1985, o Master System foi um console de 8 bits que competiu com o NES.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMasterSystem">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TERCEIRA FILEIRA -->
+                <div class="row">
+                    <!-- CARD 7 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Mega-Drive.jpg" class="card-img-top" alt="Mega Drive">
+                            <div class="card-body">
+                                <h5 class="card-title">Mega Drive</h5>
+                                <p class="card-text">O Sega Mega Drive, ou Sega Genesis, foi um console de videogame lançado pela Sega em 1988 no Japão e em 1989 nos EUA. Colocou a SEGA no mercado de consoles de 16 bits.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMegaDrive">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <!-- CARD 8 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/SNES.jpg" class="card-img-top" alt="SNES">
+                            <div class="card-body">
+                                <h5 class="card-title">Super Nintendo Entertainment System (SNES)</h5>
+                                <p class="card-text">Lançado pela Nintendo em 1990 no Japão e em 1991 nos EUA, o SNES foi um console de 16 bits que revolucionou o mercado de videogames.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSNES">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 9 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/PS1.jpg" class="card-img-top" alt="PlayStation 1">
+                            <div class="card-body">
+                                <h5 class="card-title">PlayStation 1</h5>
+                                <p class="card-text">Lançado pela Sony em 1994 no Japão e em 1995 nos EUA, o PlayStation 1 foi um dos consoles mais vendidos da história.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPlaystation1">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- QUARTA FILEIRA -->
+                <div class="row">
+                    <!-- CARD 10 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/N64.png" class="card-img-top" alt="Nintendo 64">
+                            <div class="card-body">
+                                <h5 class="card-title">Nintendo 64</h5>
+                                <p class="card-text">Lançado pela Nintendo em 1996, o Nintendo 64 foi um console de 64 bits que revolucionou o mercado de videogames.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalN64">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- CARD 11 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/PS2.jpg" class="card-img-top" alt="PlayStation 2">
+                            <div class="card-body">
+                                <h5 class="card-title">PlayStation 2</h5>
+                                <p class="card-text">Lançado pela Sony em 2000, o PlayStation 2 foi o console mais vendido da história.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPlaystation2">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 12 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Xbox.png" class="card-img-top" alt="Xbox">
+                            <div class="card-body">
+                                <h5 class="card-title">Xbox</h5>
+                                <p class="card-text">Lançado pela Microsoft em 2001, o Xbox foi o primeiro console da série Xbox.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalXBOX">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- QUINTA FILEIRA -->
+                <div class="row">
+                    <!-- CARD 13 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/360.jpg" class="card-img-top" alt="Xbox 360">
+                            <div class="card-body">
+                                <h5 class="card-title">Xbox 360</h5>
+                                <p class="card-text">Lançado pela Microsoft em 2005, o Xbox 360 foi o console da série Xbox que teve maior sucesso comercial.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal360">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 14 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/PS3.jpg" class="card-img-top" alt="PlayStation 3">
+                            <div class="card-body">
+                                <h5 class="card-title">PlayStation 3</h5>
+                                <p class="card-text">Lançado pela Sony em 2006, o PlayStation 3 foi o console que apostou em games em 3D e streaming de vídeo.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPS3">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- CARD 15 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/PS4.jpg" class="card-img-top" alt="PlayStation 4">
+                            <div class="card-body">
+                                <h5 class="card-title">PlayStation 4</h5>
+                                <p class="card-text">Lançado pela Sony em 2013, o PlayStation 4 é o console da série PlayStation que teve maior sucesso comercial.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPS4">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEXTA FILEIRA -->
+                <div class="row">
+                    <!-- CARD 16 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/Switch.jpg" class="card-img-top" alt="Nintendo Switch">
+                            <div class="card-body">
+                                <h5 class="card-title">Nintendo Switch</h5>
+                                <p class="card-text">Lançado pela Nintendo em 2017, o Nintendo Switch é o console híbrido que revolucionou a forma como as pessoas jogam videogames.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSwitch">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 17 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/PS5.jpg" class="card-img-top" alt="PlayStation 5">
+                            <div class="card-body">
+                                <h5 class="card-title">PlayStation 5</h5>
+                                <p class="card-text">Lançado pela Sony em 2020, o PlayStation 5 é o console mais recente da série.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPlaystation5">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- CARD 18 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="image/XSeries.png" class="card-img-top" alt="Series X">
+                            <div class="card-body">
+                                <h5 class="card-title">Series X</h5>
+                                <p class="card-text">Lançado pela Microsoft em 2020, o Series X é o console mais potente da série.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSeriesX">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            
+            <!-- Modal Atari -->
+            <div class="modal fade" id="modalAtari" tabindex="-1" aria-labelledby="modalAtariLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalAtariLabel">Atari 2600</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Atari estão:</p>
+                            <ul>
+                                <li>Pac-Man</li>
+                                <li>Pitfall!</li>
+                                <li>Asteroids</li>
+                                <li>Space Invaders</li>
+                            </ul>
+                            <p>O jogo E.T. the Extra-Terrestrial, lançado em 1982 para o Atari 2600, é frequentemente citado como um dos piores jogos de todos os tempos e é creditado por contribuir para o crash do mercado de videogames de 1983. A história do jogo é famosa porque a Atari supostamente enterrou milhões de cartuchos não vendidos em um aterro sanitário em Alamogordo, Novo México, em 1983. Em 2014, uma equipe de documentaristas desenterrou os cartuchos enterrados, confirmando a história.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
+
+            <!-- Modal NES -->
+            <div class="modal fade" id="modalNES" tabindex="-1" aria-labelledby="modalNESLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalNESLabel">NES</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do NES estão:</p>
+                            <ul>
+                                <li>Super Mario Bros.</li>
+                                <li>Metroid</li>
+                                <li>Legend of Zelda</li>
+                                <li>Final Fantasy</li>
+                            </ul>
+                            <p>Uma das maiores curiosidades do NES (Nintendo Entertainment System) é que seu famoso slot de cartuchos com carregamento frontal, estilo videocassete, foi projetado apenas para fazê-lo parecer um eletrodoméstico, e não um brinquedo, após a crise dos videogames de 1983. Essa decisão estética acabou se tornando uma grande falha de design: a poeira e o desgaste dos pinos internos faziam os jogos travarem, gerando o famoso (e inútil) mito de que assoprar a fita resolveria o problema.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Mega Drive -->
+            <div class="modal fade" id="modalMegaDrive" tabindex="-1" aria-labelledby="modalMegaDriveLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalMegaDriveLabel">Sega Mega Drive</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Mega Drive estão:</p>
+                            <ul>
+                                <li>Sonic The Hedgehog</li>
+                                <li>Sonic The Hedgehog 2</li>
+                                <li>Disney's Aladdin</li>
+                                <li>Mortal Kombat</li>
+                            </ul>
+                            <p>O Mega Drive foi o primeiro console a ter um jogo de luta com sangue e violência, Mortal Kombat, que foi lançado em 1993. O jogo gerou controvérsia e levou à criação do sistema de classificação etária ESRB (Entertainment Software Rating Board) nos Estados Unidos.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal PlayStation 1 -->
+            <div class="modal fade" id="modalPlaystation1" tabindex="-1" aria-labelledby="modalPlaystation1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPlaystation1Label">PlayStation 1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do PlayStation 1 estão:</p>
+                            <ul>
+                                <li>Gran Turismo</li>
+                                <li>Final Fantasy VII</li>
+                                <li>Harry Potter and the Philosopher's Stone</li>
+                                <li>Tekken 3</li>
+                            </ul>
+                            <p>O PlayStation 1 nasceu de uma traição comercial da Nintendo, que quebrou um contrato com a Sony para o desenvolvimento de um leitor de CD para o Super Nintendo e anunciou uma parceria com a Philips no dia seguinte. Em resposta, a Sony decidiu lançar o projeto como um console próprio, superando a rival histórica. Além disso, o PS1 revolucionou ao adotar a cor cinza-escura industrial e CDs pretos, focando o marketing no público jovem e adulto para distanciar os videogames da imagem de meros brinquedos infantis.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal PlayStation 2 -->
+            <div class="modal fade" id="modalPlaystation2" tabindex="-1" aria-labelledby="modalPlaystation2Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPlaystation2Label">PlayStation 2</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do PlayStation 2 estão:</p>
+                            <ul>
+                                <li>Grand Theft Auto: San Andreas</li>
+                                <li>God of War</li>
+                                <li>Need for Speed: Underground</li>
+                                <li>Medal of Honor: Frontline</li>
+                            </ul>
+                            <p>O PlayStation 2 foi tão poderoso para a época que o governo do Japão restringiu sua exportação sob a lei de controle de armas e tecnologia militar, temendo que seus processadores (Emotion Engine) fossem usados na fiação de mísseis guiados. Além disso, as icônicas torres brancas da tela de abertura do console não eram aleatórias: elas representavam o número de jogos salvos no seu Memory Card e cresciam em tamanho de acordo com o tempo investido em cada jogo.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal PlayStation 5 -->
+            <div class="modal fade" id="modalPlaystation5" tabindex="-1" aria-labelledby="modalPlaystation5Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPlaystation5Label">PlayStation 5</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do PlayStation 5 estão:</p>
+                            <ul>
+                                <li>Marvel's Spider-Man 2</li>
+                                <li>Elden Ring</li>
+                                <li>Stellar Blade</li>
+                                <li>Astro Bot</li>
+                            </ul>
+                            <p>O PlayStation 5 é o maior console da história moderna dos videogames por um motivo puramente funcional: a engenharia interna para evitar o superaquecimento e o barulho de "turbina de avião" do PS4. Para garantir um sistema silencioso, a Sony colocou um colossal ventilador de 120 mm de diâmetro e 45 mm de espessura, além de uma solução térmica inédita com metal líquido no processador. Além disso, a textura externa branca esconde um detalhe microscópico: o painel é revestido por cerca de 40.000 símbolos minúsculos de triângulo, círculo, xis e quadrado.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Modal Magnavox -->
+            <div class="modal fade" id="modalMagnavox" tabindex="-1" aria-labelledby="modalMagnavoxLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalMagnavoxLabel">Magnavox Odyssey</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Magnavox Odyssey estão:</p>
+                            <ul>
+                                <li>Table Tennis</li>
+                                <li>Tennis</li>
+                                <li>Ski</li>
+                                <li>Haunted House</li>
+                            </ul>
+                            <p>O Odyssey foi criado por Ralph Baer, conhecido como o “pai dos videogames”, e não tinha processador: funcionava com circuitos analógicos e películas plásticas que se colavam na TV para simular o cenário. Segundo a história mais contada, Nolan Bushnell, fundador da Atari, jogou o tênis de mesa do Odyssey numa demonstração em 1972, e pouco depois a Atari lançou o Pong. A Magnavox acabou processando a Atari por isso.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Coleco Telstar -->
+            <div class="modal fade" id="modalColeco" tabindex="-1" aria-labelledby="modalColecoLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalColecoLabel">Coleco Telstar</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Por conta de seu chip embutido, grande parte dos jogos já vinham incluídos. Jogos famosos do Telstar são: </p>
+                            <ul>
+                                <li>Tennis</li>
+                                <li>Hockey</li>
+                                <li>Handball</li>
+                            </ul>
+                            <p>O Telstar usava o chip AY-3-8500, da General Instrument, que trazia vários jogos simples num só componente e barateou muito os consoles. A Coleco lançou várias versões do aparelho e chegou a vender cerca de 1 milhão de unidades, mas o mercado ficou lotado de clones de Pong, e a empresa precisou se reinventar depois com outros produtos.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Intellivision -->
+            <div class="modal fade" id="modalIntellivision" tabindex="-1" aria-labelledby="modalIntellivisionLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalIntellivisionLabel">Intellivision</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Intellivision estão:</p>
+                            <ul>
+                                <li>Astrosmash</li>
+                                <li>BurgerTime</li>
+                                <li>Utopia</li>
+                                <li>TRON: Deadly Discs</li>
+                            </ul>
+                            <p>O controle tinha um disco direcional e um teclado numérico com películas para cada jogo. A Mattel fez propagandas comparando os gráficos do Intellivision com os do Atari 2600, com o apresentador George Plimpton. O jogo Utopia é considerado um dos primeiros de estratégia e simulação em tempo real.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Master System -->
+            <div class="modal fade" id="modalMasterSystem" tabindex="-1" aria-labelledby="modalMasterSystemLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalMasterSystemLabel">Master System</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Master System estão:</p>
+                            <ul>
+                                <li>Alex Kidd in Miracle World</li>
+                                <li>Sonic the Hedgehog</li>
+                                <li>Wonder Boy III: The Dragon’s Trap</li>
+                                <li>Phantasy Star</li>
+                            </ul>
+                            <p>No Brasil, a Tectoy fez versões próprias de jogos, como Mônica no Castelo do Dragão (1991), que é uma adaptação de Wonder Boy III com a personagem da Turma da Mônica. Isso ajudou o console a ficar tão popular por aqui.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Super Nintendo (SNES) -->
+            <div class="modal fade" id="modalSNES" tabindex="-1" aria-labelledby="modalSNESLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSNESLabel">Super Nintendo (SNES)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do SNES estão:</p>
+                            <ul>
+                                <li>Super Mario World</li>
+                                <li>Super Mario All-Stars</li>
+                                <li>Donkey Kong Country</li>
+                                <li>Super Mario Kart</li>
+                            </ul>
+                            <p>Alguns cartuchos traziam um chip extra, o Super FX, que permitia gráficos 3D poligonais, como em Star Fox (1993). Assim, o console conseguiu ter gráficos além do que o hardware original suportava.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Nintendo 64 -->
+            <div class="modal fade" id="modalN64" tabindex="-1" aria-labelledby="modalN64Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalN64Label">Nintendo 64</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Nintendo 64 estão:</p>
+                            <ul>
+                                <li>Super Mario 64</li>
+                                <li>Mario Kart 64</li>
+                                <li>GoldenEye 007</li>
+                                <li>The Legend of Zelda: Ocarina of Time</li>
+                            </ul>
+                            <p>A Nintendo manteve os cartuchos quando a concorrência migrava para CD. Eles carregavam mais rápido, mas guardavam bem menos dados e custavam mais. Isso fez a Square, de Final Fantasy, levar a série para o PlayStation. O N64 também foi um dos primeiros consoles a trazer quatro entradas de controle de fábrica.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal XBOX -->
+            <div class="modal fade" id="modalXBOX" tabindex="-1" aria-labelledby="modalXBOXLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalXBOXLabel">Xbox</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Xbox estão:</p>
+                            <ul>
+                                <li>Halo: Combat Evolved</li>
+                                <li>Halo 2</li>
+                                <li>Fable</li>
+                                <li>Star Wars: Knights of the Old Republic</li>
+                            </ul>
+                            <p>Foi o primeiro console a vir com HD interno e porta de rede (Ethernet), e em 2002 lançou o Xbox Live, serviço de jogo online que virou referência. O nome vem de “DirectX Box”, em referência à tecnologia gráfica do Windows em que o console foi baseado.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 360 -->
+            <div class="modal fade" id="modal360" tabindex="-1" aria-labelledby="modal360Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal360Label">Xbox 360</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Xbox 360 estão:</p>
+                            <ul>
+                                <li>Kinect Adventures!</li>
+                                <li>Halo 3</li>
+                                <li>Call of Duty: Modern Warfare 2</li>
+                                <li>Grand Theft Auto V</li>
+                            </ul>
+                            <p>Ficou famoso pelo “Red Ring of Death”, um defeito de superaquecimento que acendia três luzes vermelhas no console. A Microsoft estendeu a garantia e gastou mais de 1 bilhão de dólares com os reparos.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal PS3 -->
+            <div class="modal fade" id="modalPS3" tabindex="-1" aria-labelledby="modalPS3Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPS3Label">PlayStation 3</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do PlayStation 3 estão:</p>
+                            <ul>
+                                <li>Grand Theft Auto V</li>
+                                <li>The Last of Us</li>
+                                <li>Uncharted 3: Drake's Deception</li>
+                                <li>Metal Gear Solid 4: Guns of the Patriots</li>
+                            </ul>
+                            <p>O PlayStation 3 foi lançado em 2006 por 499 dólares (versão de 20 GB) e 599 dólares (versão de 60 GB), um preço bem alto para a época, em parte por trazer um leitor de Blu-ray de fábrica. Essa aposta ajudou o Blu-ray a vencer o HD DVD na disputa de formatos de disco. Seu processador Cell era tão potente que, em 2010, a Força Aérea dos EUA montou um supercomputador com cerca de 1.760 PS3 ligados em rede.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal PS4 -->
+            <div class="modal fade" id="modalPS4" tabindex="-1" aria-labelledby="modalPS4Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPS4Label">PlayStation 4</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do PlayStation 4 estão:</p>
+                            <ul>
+                                <li>Grand Theft Auto V</li>
+                                <li>God of War (2018)</li>
+                                <li>Marvel’s Spider-Man</li>
+                                <li>Uncharted 4</li>
+                            </ul>
+                            <p>O PlayStation 4 custava 399 dólares no lançamento, contra 499 do Xbox One (que vinha com o Kinect), e essa diferença de preço ajudou a Sony a abrir vantagem na geração. Ele também trouxe o botão “Share”, que permite gravar e compartilhar trechos de jogo.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Switch -->
+            <div class="modal fade" id="modalSwitch" tabindex="-1" aria-labelledby="modalSwitchLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSwitchLabel">Nintendo Switch</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Nintendo Switch estão:</p>
+                            <ul>
+                                <li>Mario Kart 8 Deluxe</li>
+                                <li>Animal Crossing: New Horizons</li>
+                                <li>Super Smash Bros. Ultimate</li>
+                                <li>The Legend of Zelda: Breath of the Wild</li>
+                            </ul>
+                            <p>É um console híbrido: dá para jogar na TV ou tirar da base e levar como portátil. Os Joy-Con se soltam e viram dois controles. Breath of the Wild foi lançado junto com o console e também saiu para o Wii U, o antecessor que não fez sucesso.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Series X -->
+            <div class="modal fade" id="modalSeriesX" tabindex="-1" aria-labelledby="modalSeriesXLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSeriesXLabel">Xbox Series X/S</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Entre os jogos mais vendidos do Xbox Series X/S estão:</p>
+                            <ul>
+                                <li>Halo Infinite</li>
+                                <li>Forza Horizon 5</li>
+                                <li>Starfield</li>
+                                <li>Gears 5</li>
+                            </ul>
+                            <p>Foi lançado junto com o Series S, versão mais barata e menos potente. O Series X tem GPU de cerca de 12 teraflops e o recurso Quick Resume, que retoma vários jogos exatamente de onde você parou. A Microsoft não divulga as vendas dos consoles, então os jogos listados são os de destaque, não um ranking oficial de vendas.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        
+        <footer class="text-center py-4 bg-dark text-white">
+            <h6>&copy; 2026 GamesArchive — Todos os direitos reservados.</h6>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    </body>
+</html>
