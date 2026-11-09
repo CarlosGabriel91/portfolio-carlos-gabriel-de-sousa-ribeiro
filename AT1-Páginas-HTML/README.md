@@ -21,6 +21,6 @@ integral sobre a autoria final, integridade e funcionamento da
 aplicação.
 
 ## 💻 Deploy do projeto
-** N/A **
+N/A
 ---
 [Voltar ao início](https://github.com/CarlosGabriel91/portfolio-carlos-gabriel-de-sousa-ribeiro/tree/master)
