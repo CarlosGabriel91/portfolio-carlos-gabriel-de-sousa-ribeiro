@@ -92,7 +92,7 @@ portfolio-carlos-gabriel-de-sousa-ribeiro/
 │   ├── galeria.html
 │   ├── index.html
 │   └── sobre.html
-└── AT2-Linkando-Páginas-em-HTML/
+└── dicionario-drogaria-higashi/
     ├── assets/
     │     └── der.png
     ├── docs/
