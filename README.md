@@ -4,6 +4,7 @@
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-gabriel-021446204/)
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](mailto:carlosgabrielsousaribeiro@hotmail.com)
+[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jokinhaaaa/)
 ---
 ### 👨‍💻 Sobre
 Atualmente cursando o 2º período de **Análise e Desenvolvimento de Sistemas** na UNICID. Sou apaixonado por resolver problemas através da
@@ -30,6 +31,7 @@ assertiva e pensamento crítico.
 | :--- | :--- | :---: |
 | **Site Básico em HTML5** | Criação de site básico com 5 páginas em HTML5. | [Ver Projeto](./AT1-Páginas-HTML/) |
 | **Link de Páginas em HTML** | Criação de site e link de páginas. | [Ver Projeto](./AT2-Linkando-Páginas-em-HTML/) |
+| **Deploy pelo GitHub Pages** | Deploy da página pelo GitHub | [Ver Projeto](./AT2-Linkando-Páginas-em-HTML-Deploy/) |
 | **Calculadora de IMC** | Desenvolvimento de uma calculadora de IMC com JavaScript. | [Ver Projeto](./AT3-Calculadora-IMC/) |
 | **Site com Bootstrap** | Aplicação do Bootstrap para o desenvolvimento de um site com múltiplas páginas. | [Ver Projeto](./AT4-Site-Multi-Páginas-Bootstrap/) |
 ---
