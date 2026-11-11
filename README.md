@@ -20,6 +20,9 @@ assertiva e pensamento crítico.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 #### 🗄️ Bibliotecas e Frameworks
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117)
+#### 🛠️ Ferramentas
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CarlosGabriel91)
 ---
 ### 📂 Portfólio de Projetos
 #### 🧑‍💻 Desenvolvimento Front-End para Web
