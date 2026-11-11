@@ -9,7 +9,6 @@
 ### 👨‍💻 Sobre
 Atualmente cursando o 2º período de **Análise e Desenvolvimento de Sistemas** na UNICID. Sou apaixonado por resolver problemas através da
 tecnologia e possuo foco em **Desenvolvimento Back-End e Game Development.**
-* **Habilidades Técnicas:** Python, HTML5, CSS3, JavaScript.
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação
 assertiva e pensamento crítico.
 ---
